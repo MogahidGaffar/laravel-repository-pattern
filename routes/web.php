@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/users',[UserController::class,'getAllpage'])->name('users.getAllpage');
+Route::get('/users/create',[UserController::class,'getCreatepage'])->name('users.getCreatepage');
+Route::get('/users/edit/{userId}',[UserController::class,'getEditpage'])->name('users.getEditpage');
+Route::post('/users',[UserController::class,'createOne'])->name('users.createOne');
+Route::put('/users/{userId}',[UserController::class,'UpdateOne'])->name('users.UpdateOne');
+Route::delete('/users/{userId}',[UserController::class,'RemoveOne'])->name('users.RemoveOne');
