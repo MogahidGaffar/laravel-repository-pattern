@@ -76,6 +76,11 @@ _Below is an example of how you can instruct your audience on installing and set
    php artisan migrate
    ```
  
+3. Server establish
+   ```sh
+   php artisan server
+   ```
+ now Go to <a href="http://localhost:8000/users"></a>
 
 
 
