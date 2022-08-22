@@ -20,7 +20,9 @@
 
 <img src="https://github.com/MogahidGaffar/laravel-repository-pattern/blob/main/public/images/app_screenshot.png" />
 
-CRUD Example with Repository Design Pattern in Laravel
+###  CRUD Example with Repository Design Pattern in Laravel
+
+
 
 Repository pattern is a kind of container where data access logic is stored. It hides the details of data access logic from business logic. So let’s start a tutorial to create a complete dynamic CRUD application using repository design pattern. 
 
@@ -36,14 +38,12 @@ How and why we implemented the “Repository Pattern” in our PHP backend :
 * We have several custom actions on various models that we want to group in a central place instead of repeating them in different parts of the code
 * We want to add a cache layer on top of the database to increase performance.
 
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+##  Built With
 
 * Laravel
 * Bootstrap
 * Baldes
+* Mysql DB
 
 
 
