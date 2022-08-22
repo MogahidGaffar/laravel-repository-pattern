@@ -23,23 +23,26 @@
         <td>{{ $user->address }}</td>
         <td>{{ $user->phone }}</td>
         <td>{{ $user->email }}</td>
+         
             <td>
-                <form action="{{ route('users.RemoveOne',$user->id) }}" method="post">
-                        @csrf
-                        @method('delete')
-                        <button class="btn btn-outline-danger" type="submit">@lang('words.remove')</button>
-                </form>
+                <a href="{{route('users.getEditpage',$user->id)}}" class="btn btn-outline-primary"><i class="fa fa-pencil-square aria-hidden="true"></i>                </a>
             </td>
+
             <td>
-                <a href="{{route('users.getEditpage',$user->id)}}" class="btn btn-outline-primary">@lang('words.edit') </a>
-            </td>
+              <form action="{{ route('users.RemoveOne',$user->id) }}" method="post">
+                      @csrf
+                      @method('delete')
+                      <button class="btn btn-outline-danger" type="submit"><i class="fa fa-trash" aria-hidden="true"></i>                        </button>
+              </form>
+          </td>
+
       </tr>
         @endforeach
         </tbody>
         <tfoot>
             <tr>
               <th>
-                <a href="{{ route('users.getCreatepage') }}" class="btn btn-outline-primary">Create</a>
+                <a href="{{ route('users.getCreatepage') }}" class="btn btn-outline-primary">Create <i class="fa fa-plus-circle" aria-hidden="true"></i>                </a>
               </th>
               </tr>
         </tfoot>

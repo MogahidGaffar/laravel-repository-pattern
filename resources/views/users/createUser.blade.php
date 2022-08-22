@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <button type="submit" class="btn btn-primary">@lang('words.save')</button>
+    <button type="submit" class="btn btn-primary">@lang('words.save')&nbsp; <i class="fa fa-save    " aria-hidden="true"></i>   </button>
   </form>
 
 @endsection
