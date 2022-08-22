@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/MogahidGaffar/laravel-repository-pattern/blob/main/public/images/repository_pattern.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/MogahidGaffar/laravel-repository-pattern/blob/main/public/images/repository_pattern.png" alt="Logo" >
   </a>
 
   <h3 align="center">CRUD App using repository pattern in Laravel </h3>
