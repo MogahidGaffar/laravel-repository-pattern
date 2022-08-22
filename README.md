@@ -18,9 +18,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<h3> Repository pattern is a kind of container where data access logic is stored. It hides the details of data access logic from business logic. 
-The Repository Pattern is one of the most discussed patterns due to many conflicts with ORMs. This pattern is often used as an abstraction layer to interact with the database. Yet, since the ORMs serve the same purpose, many developers get confused. </h3>
-<br>
+<h5> Repository pattern is a kind of container where data access logic is stored. It hides the details of data access logic from business logic. 
+The Repository Pattern is one of the most discussed patterns due to many conflicts with ORMs. This pattern is often used as an abstraction layer to interact with the database. Yet, since the ORMs serve the same purpose, many developers get confused. </h5>
+<br/>
 
 <img src="https://github.com/MogahidGaffar/laravel-repository-pattern/blob/main/public/images/app_screenshot.png" />
 
@@ -46,6 +46,12 @@ How and why we implemented the “Repository Pattern” in our PHP backend :
 
 
 
+## Contact
+
+Mogahid Gaffar -  mogahidgaffar@gmail.com
+
+
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -55,7 +61,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can instruct your audience on installing and setting up your app
 
  1. Clone the repo
    ```sh
@@ -70,17 +76,10 @@ _Below is an example of how you can instruct your audience on installing and set
    composer update
    ```
 
-3. Database Migrattion
+4. Database Migrattion
    ```sh
 php artisan migrate
 ```
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Mogahid Gaffar -  mogahidgaffar@gmail.com
 
 
 
