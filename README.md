@@ -46,11 +46,6 @@ How and why we implemented the “Repository Pattern” in our PHP backend :
 
 
 
-## Contact
-
-Mogahid Gaffar -  mogahidgaffar@gmail.com
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -77,10 +72,13 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 
 4. Database Migrattion
-   ```sh
-php artisan migrate
-```
+   ```sh php artisan migrate```
 
 
+
+
+## Contact
+
+Mogahid Gaffar -  mogahidgaffar@gmail.com
 
 
