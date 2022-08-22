@@ -18,7 +18,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Repository pattern is a kind of container where data access logic is stored. It hides the details of data access logic from business logic. 
+<h3> Repository pattern is a kind of container where data access logic is stored. It hides the details of data access logic from business logic. 
+The Repository Pattern is one of the most discussed patterns due to many conflicts with ORMs. This pattern is often used as an abstraction layer to interact with the database. Yet, since the ORMs serve the same purpose, many developers get confused. </h3>
+<br>
+
 <img src="https://github.com/MogahidGaffar/laravel-repository-pattern/blob/main/public/images/app_screenshot.png" />
 
 ###  CRUD Example with Repository Design Pattern in Laravel
