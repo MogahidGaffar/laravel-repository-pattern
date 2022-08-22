@@ -18,14 +18,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Repository pattern is a kind of container where data access logic is stored. It hides the details of data access logic from business logic. 
 <img src="https://github.com/MogahidGaffar/laravel-repository-pattern/blob/main/public/images/app_screenshot.png" />
 
 ###  CRUD Example with Repository Design Pattern in Laravel
-
-
-
-Repository pattern is a kind of container where data access logic is stored. It hides the details of data access logic from business logic. So let’s start a tutorial to create a complete dynamic CRUD application using repository design pattern. 
-
 
 How and why we implemented the “Repository Pattern” in our PHP backend :
 * to drastically reduce code duplication.
