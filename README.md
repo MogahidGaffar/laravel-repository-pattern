@@ -71,9 +71,11 @@ _Below is an example of how you can instruct your audience on installing and set
    composer update
    ```
 
-4. Database Migrattion
-   ```sh php artisan migrate```
-
+3. Database Migrattion
+   ```sh
+   php artisan migrate
+   ```
+ 
 
 
 
