@@ -1,7 +1,10 @@
 @extends('users.layout')
 @section('content')
 
-<br><br><br>
+<br>
+<h2> Show All Users </h2> <hr>
+<br>
+
 
 <table class="table">
     <thead>

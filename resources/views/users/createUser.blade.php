@@ -1,6 +1,10 @@
 @extends('users.layout')
 @section('content')
-<br><br><br>
+
+
+<br>
+<h2> Create New User </h2> <hr>
+<br>
 
 <form action="{{ route('users.createOne') }}" method="post">
   @csrf

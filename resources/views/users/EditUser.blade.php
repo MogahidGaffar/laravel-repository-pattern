@@ -1,6 +1,9 @@
 @extends('users.layout')
 @section('content')
-<br><br><br>
+
+<br>
+<h2> Edit User </h2> <hr>
+<br>
 
 <form action="{{ route('users.UpdateOne',$user->id) }}" method="post">
   @csrf
