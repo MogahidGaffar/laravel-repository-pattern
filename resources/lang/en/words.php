@@ -9,5 +9,7 @@ return [
     'save' => 'save',
     'remove' => 'remove',
     'edit' => 'edit',
-
+    'Email' => 'Email',
+    'update' => 'update',
+    
 ];

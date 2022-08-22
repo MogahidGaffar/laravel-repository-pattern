@@ -14,8 +14,7 @@
     }
     </style>
 </head>
-  <body class="container vh-100 vw-100 align=items-center d-flex flex-row">
-
+  <body class="container">
     @yield('content')
  
 

@@ -1,12 +1,12 @@
 <?php
 namespace app\Repository\User;
 use app\Repository\User\IUserRepository;
-use app\Models\User;
+use App\Models\User;
 
 class ElequentUserRepository implements IUserRepository {
 
 public User $user;
-public function __construct(USer $user)
+public function __construct(User $user)
 {
     $this->user=$user;
 }
